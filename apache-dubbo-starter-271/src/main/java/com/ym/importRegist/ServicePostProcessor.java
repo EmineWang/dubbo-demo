@@ -52,6 +52,7 @@ public class ServicePostProcessor implements BeanDefinitionRegistryPostProcessor
     public void postProcessBeanFactory(ConfigurableListableBeanFactory configurableListableBeanFactory) throws BeansException {
 
 
+        System.out.println("调用 postProcessBeanFactory");
 
 
 

@@ -19,10 +19,10 @@ public class Test {
 
         MyConf myConf = (MyConf)context.getBean("myConf");
         myConf.say();
-
-        ServicePostProcessor servicePostProcessor = (ServicePostProcessor)context.getBean(ServicePostProcessor.class);
-        System.out.println(servicePostProcessor.packages);
-//        servicePostProcessor.hashCode();
+//
+//        ServicePostProcessor servicePostProcessor = (ServicePostProcessor)context.getBean(ServicePostProcessor.class);
+//        System.out.println(servicePostProcessor.packages);
+////        servicePostProcessor.hashCode();
 
         Test02 test02 = (Test02)context.getBean(Test02.class);
         test02.say();
